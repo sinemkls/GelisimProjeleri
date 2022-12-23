@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5F56AE28CF5CBB00F6C3D1 /* SicaklikCeviriciApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F56AD28CF5CBB00F6C3D1 /* SicaklikCeviriciApp.swift */; };
+		EE5F56B028CF5CBB00F6C3D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F56AF28CF5CBB00F6C3D1 /* ContentView.swift */; };
+		EE5F56B228CF5CBD00F6C3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5F56B128CF5CBD00F6C3D1 /* Assets.xcassets */; };
+		EE5F56B528CF5CBD00F6C3D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5F56B428CF5CBD00F6C3D1 /* Preview Assets.xcassets */; };
+		EE5F56BF28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F56BE28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.swift */; };
+		EE5F56C928CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F56C828CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.swift */; };
+		EE5F56CB28CF5CBD00F6C3D1 /* SicaklikCeviriciUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F56CA28CF5CBD00F6C3D1 /* SicaklikCeviriciUITestsLaunchTests.swift */; };
+		EE5F56D828D9FC2400F6C3D1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F56D728D9FC2400F6C3D1 /* MapView.swift */; };
+		EE5F574828E9B22500F6C3D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE5F574A28E9B22500F6C3D1 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE5F56BB28CF5CBD00F6C3D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE5F56A228CF5CBB00F6C3D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5F56A928CF5CBB00F6C3D1;
+			remoteInfo = SicaklikCevirici;
+		};
+		EE5F56C528CF5CBD00F6C3D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE5F56A228CF5CBB00F6C3D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5F56A928CF5CBB00F6C3D1;
+			remoteInfo = SicaklikCevirici;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE22431428FD5B9300BFA13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE5F56AA28CF5CBB00F6C3D1 /* SicaklikCevirici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SicaklikCevirici.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5F56AD28CF5CBB00F6C3D1 /* SicaklikCeviriciApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicaklikCeviriciApp.swift; sourceTree = "<group>"; };
+		EE5F56AF28CF5CBB00F6C3D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE5F56B128CF5CBD00F6C3D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE5F56B428CF5CBD00F6C3D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE5F56BA28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SicaklikCeviriciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5F56BE28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicaklikCeviriciTests.swift; sourceTree = "<group>"; };
+		EE5F56C428CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SicaklikCeviriciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5F56C828CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicaklikCeviriciUITests.swift; sourceTree = "<group>"; };
+		EE5F56CA28CF5CBD00F6C3D1 /* SicaklikCeviriciUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicaklikCeviriciUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE5F56D728D9FC2400F6C3D1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EE5F574928E9B22500F6C3D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EED54F3928F8353B0037F6B5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE5F56A728CF5CBB00F6C3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F56B728CF5CBD00F6C3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F56C128CF5CBD00F6C3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE5F56A128CF5CBB00F6C3D1 = {
+			isa = PBXGroup;
+			children = (
+				EE5F56AC28CF5CBB00F6C3D1 /* SicaklikCevirici */,
+				EE5F56BD28CF5CBD00F6C3D1 /* SicaklikCeviriciTests */,
+				EE5F56C728CF5CBD00F6C3D1 /* SicaklikCeviriciUITests */,
+				EE5F56AB28CF5CBB00F6C3D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE5F56AB28CF5CBB00F6C3D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F56AA28CF5CBB00F6C3D1 /* SicaklikCevirici.app */,
+				EE5F56BA28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.xctest */,
+				EE5F56C428CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE5F56AC28CF5CBB00F6C3D1 /* SicaklikCevirici */ = {
+			isa = PBXGroup;
+			children = (
+				EE22431428FD5B9300BFA13F /* Info.plist */,
+				EE5F56AD28CF5CBB00F6C3D1 /* SicaklikCeviriciApp.swift */,
+				EE5F56AF28CF5CBB00F6C3D1 /* ContentView.swift */,
+				EE5F56D728D9FC2400F6C3D1 /* MapView.swift */,
+				EE5F574A28E9B22500F6C3D1 /* Localizable.strings */,
+				EE5F56B128CF5CBD00F6C3D1 /* Assets.xcassets */,
+				EE5F56B328CF5CBD00F6C3D1 /* Preview Content */,
+			);
+			path = SicaklikCevirici;
+			sourceTree = "<group>";
+		};
+		EE5F56B328CF5CBD00F6C3D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F56B428CF5CBD00F6C3D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE5F56BD28CF5CBD00F6C3D1 /* SicaklikCeviriciTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F56BE28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.swift */,
+			);
+			path = SicaklikCeviriciTests;
+			sourceTree = "<group>";
+		};
+		EE5F56C728CF5CBD00F6C3D1 /* SicaklikCeviriciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F56C828CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.swift */,
+				EE5F56CA28CF5CBD00F6C3D1 /* SicaklikCeviriciUITestsLaunchTests.swift */,
+			);
+			path = SicaklikCeviriciUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE5F56A928CF5CBB00F6C3D1 /* SicaklikCevirici */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5F56CE28CF5CBD00F6C3D1 /* Build configuration list for PBXNativeTarget "SicaklikCevirici" */;
+			buildPhases = (
+				EE5F56A628CF5CBB00F6C3D1 /* Sources */,
+				EE5F56A728CF5CBB00F6C3D1 /* Frameworks */,
+				EE5F56A828CF5CBB00F6C3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SicaklikCevirici;
+			productName = SicaklikCevirici;
+			productReference = EE5F56AA28CF5CBB00F6C3D1 /* SicaklikCevirici.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE5F56B928CF5CBD00F6C3D1 /* SicaklikCeviriciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5F56D128CF5CBD00F6C3D1 /* Build configuration list for PBXNativeTarget "SicaklikCeviriciTests" */;
+			buildPhases = (
+				EE5F56B628CF5CBD00F6C3D1 /* Sources */,
+				EE5F56B728CF5CBD00F6C3D1 /* Frameworks */,
+				EE5F56B828CF5CBD00F6C3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE5F56BC28CF5CBD00F6C3D1 /* PBXTargetDependency */,
+			);
+			name = SicaklikCeviriciTests;
+			productName = SicaklikCeviriciTests;
+			productReference = EE5F56BA28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE5F56C328CF5CBD00F6C3D1 /* SicaklikCeviriciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5F56D428CF5CBD00F6C3D1 /* Build configuration list for PBXNativeTarget "SicaklikCeviriciUITests" */;
+			buildPhases = (
+				EE5F56C028CF5CBD00F6C3D1 /* Sources */,
+				EE5F56C128CF5CBD00F6C3D1 /* Frameworks */,
+				EE5F56C228CF5CBD00F6C3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE5F56C628CF5CBD00F6C3D1 /* PBXTargetDependency */,
+			);
+			name = SicaklikCeviriciUITests;
+			productName = SicaklikCeviriciUITests;
+			productReference = EE5F56C428CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE5F56A228CF5CBB00F6C3D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EE5F56A928CF5CBB00F6C3D1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EE5F56B928CF5CBD00F6C3D1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EE5F56A928CF5CBB00F6C3D1;
+					};
+					EE5F56C328CF5CBD00F6C3D1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EE5F56A928CF5CBB00F6C3D1;
+					};
+				};
+			};
+			buildConfigurationList = EE5F56A528CF5CBB00F6C3D1 /* Build configuration list for PBXProject "SicaklikCevirici" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = EE5F56A128CF5CBB00F6C3D1;
+			productRefGroup = EE5F56AB28CF5CBB00F6C3D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5F56A928CF5CBB00F6C3D1 /* SicaklikCevirici */,
+				EE5F56B928CF5CBD00F6C3D1 /* SicaklikCeviriciTests */,
+				EE5F56C328CF5CBD00F6C3D1 /* SicaklikCeviriciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE5F56A828CF5CBB00F6C3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5F56B528CF5CBD00F6C3D1 /* Preview Assets.xcassets in Resources */,
+				EE5F574828E9B22500F6C3D1 /* Localizable.strings in Resources */,
+				EE5F56B228CF5CBD00F6C3D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F56B828CF5CBD00F6C3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F56C228CF5CBD00F6C3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE5F56A628CF5CBB00F6C3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5F56B028CF5CBB00F6C3D1 /* ContentView.swift in Sources */,
+				EE5F56AE28CF5CBB00F6C3D1 /* SicaklikCeviriciApp.swift in Sources */,
+				EE5F56D828D9FC2400F6C3D1 /* MapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F56B628CF5CBD00F6C3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5F56BF28CF5CBD00F6C3D1 /* SicaklikCeviriciTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F56C028CF5CBD00F6C3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5F56C928CF5CBD00F6C3D1 /* SicaklikCeviriciUITests.swift in Sources */,
+				EE5F56CB28CF5CBD00F6C3D1 /* SicaklikCeviriciUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE5F56BC28CF5CBD00F6C3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5F56A928CF5CBB00F6C3D1 /* SicaklikCevirici */;
+			targetProxy = EE5F56BB28CF5CBD00F6C3D1 /* PBXContainerItemProxy */;
+		};
+		EE5F56C628CF5CBD00F6C3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5F56A928CF5CBB00F6C3D1 /* SicaklikCevirici */;
+			targetProxy = EE5F56C528CF5CBD00F6C3D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE5F574A28E9B22500F6C3D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5F574928E9B22500F6C3D1 /* en */,
+				EED54F3928F8353B0037F6B5 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE5F56CC28CF5CBD00F6C3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE5F56CD28CF5CBD00F6C3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE5F56CF28CF5CBD00F6C3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SicaklikCevirici/Preview Content\"";
+				DEVELOPMENT_TEAM = 2YA4AY6W79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SicaklikCevirici/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinem.SicaklikCevirici;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE5F56D028CF5CBD00F6C3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SicaklikCevirici/Preview Content\"";
+				DEVELOPMENT_TEAM = 2YA4AY6W79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SicaklikCevirici/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinem.SicaklikCevirici;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE5F56D228CF5CBD00F6C3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YA4AY6W79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinem.SicaklikCeviriciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SicaklikCevirici.app/SicaklikCevirici";
+			};
+			name = Debug;
+		};
+		EE5F56D328CF5CBD00F6C3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YA4AY6W79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinem.SicaklikCeviriciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SicaklikCevirici.app/SicaklikCevirici";
+			};
+			name = Release;
+		};
+		EE5F56D528CF5CBD00F6C3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YA4AY6W79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinem.SicaklikCeviriciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SicaklikCevirici;
+			};
+			name = Debug;
+		};
+		EE5F56D628CF5CBD00F6C3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YA4AY6W79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinem.SicaklikCeviriciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SicaklikCevirici;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE5F56A528CF5CBB00F6C3D1 /* Build configuration list for PBXProject "SicaklikCevirici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5F56CC28CF5CBD00F6C3D1 /* Debug */,
+				EE5F56CD28CF5CBD00F6C3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5F56CE28CF5CBD00F6C3D1 /* Build configuration list for PBXNativeTarget "SicaklikCevirici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5F56CF28CF5CBD00F6C3D1 /* Debug */,
+				EE5F56D028CF5CBD00F6C3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5F56D128CF5CBD00F6C3D1 /* Build configuration list for PBXNativeTarget "SicaklikCeviriciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5F56D228CF5CBD00F6C3D1 /* Debug */,
+				EE5F56D328CF5CBD00F6C3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5F56D428CF5CBD00F6C3D1 /* Build configuration list for PBXNativeTarget "SicaklikCeviriciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5F56D528CF5CBD00F6C3D1 /* Debug */,
+				EE5F56D628CF5CBD00F6C3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE5F56A228CF5CBB00F6C3D1 /* Project object */;
+}

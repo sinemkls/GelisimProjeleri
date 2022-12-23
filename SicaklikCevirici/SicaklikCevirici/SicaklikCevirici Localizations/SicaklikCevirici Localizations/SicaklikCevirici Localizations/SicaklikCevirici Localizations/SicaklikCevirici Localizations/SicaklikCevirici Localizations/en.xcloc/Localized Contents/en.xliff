@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="SicaklikCevirici/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>SicaklikCevirici</source>
+        <target>SicaklikCevirici</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SicaklikCevirici/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
+    </header>
+    <body>
+      <trans-unit id="CONVERSİON_DERGEES_CELCIUS" xml:space="preserve">
+        <source>dergrees celcius</source>
+        <target>dergrees celcius</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="CONVERSİON_FAHRENHEIT" xml:space="preserve">
+        <source>fahreheit</source>
+        <target>fahreheit</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="CONVERSİON_IS_ACTUALLY " xml:space="preserve">
+        <source>is actually</source>
+        <target>is actually</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="CONVERSİON_TEXT_FIELD_PLACEHOLDER" xml:space="preserve">
+        <source>value</source>
+        <target>value</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="MAP_CITY_ISTANBUL" xml:space="preserve">
+        <source>Istanbul</source>
+        <target>Istanbul</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="MAP_CITY_LONDON" xml:space="preserve">
+        <source>Londra</source>
+        <target>Londra</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Picker" xml:space="preserve">
+        <source>Picker</source>
+        <target>Picker</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="TAB_CONVERSION" xml:space="preserve">
+        <source>Conversion</source>
+        <target>Conversion</target>
+        <note>Localizable.strings
+  SicaklikCevirici
+
+  Created by sinem keleş on 1.10.2022.</note>
+      </trans-unit>
+      <trans-unit id="TAB_MAP" xml:space="preserve">
+        <source>Map</source>
+        <target>Map</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
